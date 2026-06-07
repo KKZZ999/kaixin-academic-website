@@ -16,9 +16,10 @@ export const profile = {
 
 export const about = {
   background: [
-    "MSc Pharmacology, University of Oxford, with research training in neuronal cell biology and disease-relevant molecular mechanisms.",
-    "Current DPhil research at the Oxford Centre for Human Genetics, studying synaptic vesicle recycling, organelle function and neuronal vulnerability.",
-    "Research interests include synaptic endocytosis, V-ATPase regulation, lysosomal biology, iPSC-derived neuronal models, neurodevelopment and neurodegeneration."
+    "2024-2028 (anticipated) | Doctor of Philosophy in Clinical Medicine, Neuronal Physiology and Pathology, Nuffield Department of Medicine, University of Oxford, UK.",
+    "2023-2024 | Master of Science in Pharmacology, Department of Pharmacology, University of Oxford, UK. Distinction, grade: 75%.",
+    "2021-2023 | Bachelor of Science (Hons) in Biomedical Sciences, School of Biological Sciences, University of Manchester, UK. Second-One, grade: 68%.",
+    "2018-2022 | Bachelor of Science in Biological Sciences, School of Life Sciences, Jilin University, Changchun, China. Grade: 90%."
   ]
 };
 
