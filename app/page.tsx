@@ -125,7 +125,7 @@ export default function Home() {
                     <p className="text-sm text-ink/55">{item.status}</p>
                   ) : null}
                 </div>
-                <h3 className="font-serif text-2xl leading-snug text-ink">
+                <h3 className="font-serif text-xl leading-snug text-ink sm:text-2xl">
                   {item.degree}
                 </h3>
                 <p className="mt-1 text-lg font-semibold leading-7 text-oxford">
