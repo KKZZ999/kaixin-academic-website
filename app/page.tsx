@@ -132,7 +132,16 @@ export default function Home() {
                   {item.field}
                 </p>
                 <p className="mt-2 leading-7 text-ink/70">
-                  {item.institution} | {item.location}
+                  {item.institution}
+                  {"institutionCn" in item ? (
+                    <span className="font-cjk"> ({item.institutionCn})</span>
+                  ) : null}
+                  {" | "}
+                  {item.location}
+                  {"locationCn" in item ? (
+                    <span className="font-cjk"> ({item.locationCn})</span>
+                  ) : null}
+                  {"country" in item ? `, ${item.country}` : null}
                 </p>
                 {item.detail ? (
                   <p className="mt-1 text-sm font-semibold text-moss">{item.detail}</p>

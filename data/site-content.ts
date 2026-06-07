@@ -44,8 +44,11 @@ export const about = {
       years: "2018-2022",
       degree: "Bachelor of Science",
       field: "Biological Sciences",
-      institution: "School of Life Sciences, Jilin University (吉林大学)",
-      location: "Changchun (长春), China",
+      institution: "School of Life Sciences, Jilin University",
+      institutionCn: "吉林大学",
+      location: "Changchun",
+      locationCn: "长春",
+      country: "China",
       detail: "Grade: 90%"
     }
   ]
