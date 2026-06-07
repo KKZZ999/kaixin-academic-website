@@ -116,7 +116,6 @@ export default function Home() {
 
       <Section eyebrow="About" id="about" title="Academic Background">
         <div className="space-y-7">
-          <p className="max-w-3xl text-lg leading-8 text-ink/75">{about.intro}</p>
           <div className="grid gap-4">
             {about.background.map((item) => (
               <p className="border-l-2 border-teal/40 pl-5 leading-7 text-ink/70" key={item}>

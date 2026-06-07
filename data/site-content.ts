@@ -15,8 +15,6 @@ export const profile = {
 };
 
 export const about = {
-  intro:
-    "Kaixin Zhang is a DPhil student in Clinical Medicine at the University of Oxford, based at the Oxford Centre for Human Genetics. Her work sits at the interface of cellular neuroscience, molecular genetics and disease biology.",
   background: [
     "MSc Pharmacology, University of Oxford, with research training in neuronal cell biology and disease-relevant molecular mechanisms.",
     "Current DPhil research at the Oxford Centre for Human Genetics, studying synaptic vesicle recycling, organelle function and neuronal vulnerability.",
