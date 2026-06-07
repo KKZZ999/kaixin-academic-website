@@ -17,8 +17,8 @@ const config: Config = {
         moss: "#6d8463"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "ui-sans-serif", "system-ui"],
-        serif: ["var(--font-lora)", "Lora", "Georgia", "serif"]
+        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        serif: ["Georgia", "Times New Roman", "serif"]
       },
       boxShadow: {
         soft: "0 20px 70px rgba(18, 60, 105, 0.10)"
