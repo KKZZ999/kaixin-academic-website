@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #cce6df;
+  color: #17201c;
+}
+
+.academic-rule {
+  background:
+    linear-gradient(90deg, rgba(18, 60, 105, 0.22), rgba(27, 118, 102, 0.8), rgba(109, 132, 99, 0.18));
+}
