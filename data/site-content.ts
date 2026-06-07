@@ -2,7 +2,7 @@ export const profile = {
   name: "Kaixin Zhang",
   title: "DPhil Student in Clinical Medicine, University of Oxford",
   email: "kaixin.zhang@ndm.ox.ac.uk",
-  heroEyebrow: "Cellular Neuroscience & Disease Biology",
+  heroEyebrow: "Molecular Neuroscience & Synaptic Biology",
   links: {
     cv: "#",
     linkedin: "https://www.linkedin.com/in/kaixin-zhang-ox",
@@ -10,7 +10,7 @@ export const profile = {
     orcid: "#"
   },
   tagline:
-    "Investigating how synaptic vesicle biology, DMXL2/Rabconnectin-3a signalling and endophilin-A shape neurodevelopmental and neurodegenerative disease mechanisms."
+    "My research focuses on the molecular and cellular mechanisms underlying neuronal health and disease, with particular interests in intracellular trafficking, synaptic biology and iPSC-derived models of neuronal disease."
 };
 
 export const about = {
