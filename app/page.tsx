@@ -188,7 +188,7 @@ export default function Home() {
           </a>
           <a className="rounded-lg border border-oxford/10 bg-white/70 p-5 transition hover:border-teal/40" href={profile.links.linkedin}>
             <p className="text-sm font-semibold text-teal">LinkedIn</p>
-            <p className="mt-2 text-ink/70">Add LinkedIn URL</p>
+            <p className="mt-2 text-ink/70">{profile.links.linkedin}</p>
           </a>
           <a className="rounded-lg border border-oxford/10 bg-white/70 p-5 transition hover:border-teal/40" href={profile.links.googleScholar}>
             <p className="text-sm font-semibold text-teal">Google Scholar</p>

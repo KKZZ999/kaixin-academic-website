@@ -4,7 +4,7 @@ export const profile = {
   email: "kaixin.zhang@ndm.ox.ac.uk",
   links: {
     cv: "#",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/kaixin-zhang-ox",
     googleScholar: "#",
     orcid: "#"
   },
