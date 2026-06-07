@@ -1,7 +1,7 @@
 export const profile = {
   name: "Kaixin Zhang",
   title: "DPhil Student in Clinical Medicine, University of Oxford",
-  email: "kaixin.zhang@example.com",
+  email: "kaixin.zhang@ndm.ox.ac.uk",
   links: {
     cv: "#",
     linkedin: "#",
