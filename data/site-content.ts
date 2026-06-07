@@ -2,6 +2,7 @@ export const profile = {
   name: "Kaixin Zhang",
   title: "DPhil Student in Clinical Medicine, University of Oxford",
   email: "kaixin.zhang@ndm.ox.ac.uk",
+  heroEyebrow: "Cellular Neuroscience & Disease Biology",
   links: {
     cv: "#",
     linkedin: "https://www.linkedin.com/in/kaixin-zhang-ox",

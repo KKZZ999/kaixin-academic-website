@@ -41,7 +41,7 @@ function Hero() {
         <div>
           <div className="mb-8 h-1 w-28 academic-rule" />
           <p className="mb-5 max-w-2xl text-sm font-semibold uppercase text-teal">
-            University of Oxford
+            {profile.heroEyebrow}
           </p>
           <h1 className="max-w-4xl font-serif text-5xl leading-[1.04] text-ink sm:text-6xl lg:text-7xl">
             {profile.name}
