@@ -116,11 +116,28 @@ export default function Home() {
 
       <Section eyebrow="About" id="about" title="Academic Background">
         <div className="space-y-7">
-          <div className="grid gap-4">
-            {about.background.map((item) => (
-              <p className="border-l-2 border-teal/40 pl-5 leading-7 text-ink/70" key={item}>
-                {item}
-              </p>
+          <div className="grid gap-7">
+            {about.education.map((item) => (
+              <article className="border-l-2 border-teal/40 pl-5" key={`${item.years}-${item.degree}`}>
+                <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <p className="text-sm font-semibold uppercase text-oxford">{item.years}</p>
+                  {item.status ? (
+                    <p className="text-sm text-ink/55">{item.status}</p>
+                  ) : null}
+                </div>
+                <h3 className="font-serif text-2xl leading-snug text-ink">
+                  {item.degree}
+                </h3>
+                <p className="mt-1 text-lg font-semibold leading-7 text-oxford">
+                  {item.field}
+                </p>
+                <p className="mt-2 leading-7 text-ink/70">
+                  {item.institution} | {item.location}
+                </p>
+                {item.detail ? (
+                  <p className="mt-1 text-sm font-semibold text-moss">{item.detail}</p>
+                ) : null}
+              </article>
             ))}
           </div>
         </div>

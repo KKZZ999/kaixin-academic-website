@@ -15,11 +15,39 @@ export const profile = {
 };
 
 export const about = {
-  background: [
-    "2024-2028 (anticipated) | Doctor of Philosophy in Clinical Medicine, Neuronal Physiology and Pathology, Nuffield Department of Medicine, University of Oxford, UK.",
-    "2023-2024 | Master of Science in Pharmacology, Department of Pharmacology, University of Oxford, UK. Distinction, grade: 75%.",
-    "2021-2023 | Bachelor of Science (Hons) in Biomedical Sciences, School of Biological Sciences, University of Manchester, UK. Second-One, grade: 68%.",
-    "2018-2022 | Bachelor of Science in Biological Sciences, School of Life Sciences, Jilin University, Changchun, China. Grade: 90%."
+  education: [
+    {
+      years: "2024-2028",
+      status: "Anticipated",
+      degree: "Doctor of Philosophy in Clinical Medicine",
+      field: "Neuronal Physiology and Pathology",
+      institution: "Nuffield Department of Medicine, University of Oxford",
+      location: "Oxford, UK"
+    },
+    {
+      years: "2023-2024",
+      degree: "Master of Science in Pharmacology",
+      field: "Pharmacology",
+      institution: "Department of Pharmacology, University of Oxford",
+      location: "Oxford, UK",
+      detail: "Distinction | Grade: 75%"
+    },
+    {
+      years: "2021-2023",
+      degree: "Bachelor of Science (Hons)",
+      field: "Biomedical Sciences",
+      institution: "School of Biological Sciences, University of Manchester",
+      location: "Manchester, UK",
+      detail: "Second-One | Grade: 68%"
+    },
+    {
+      years: "2018-2022",
+      degree: "Bachelor of Science",
+      field: "Biological Sciences",
+      institution: "School of Life Sciences, Jilin University",
+      location: "Changchun, China",
+      detail: "Grade: 90%"
+    }
   ]
 };
 
