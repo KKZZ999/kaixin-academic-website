@@ -27,7 +27,7 @@ export const about = {
     {
       years: "2023-2024",
       degree: "Master of Science in Pharmacology",
-      field: "Pharmacology",
+      field: "Neuropharmacology",
       institution: "Department of Pharmacology, University of Oxford",
       location: "Oxford, UK",
       detail: "Distinction | Grade: 75%"
