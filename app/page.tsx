@@ -43,9 +43,17 @@ function Hero() {
           <p className="mb-5 max-w-2xl text-sm font-semibold uppercase text-teal">
             {profile.heroEyebrow}
           </p>
-          <h1 className="max-w-4xl font-serif text-5xl leading-[1.04] text-ink sm:text-6xl lg:text-7xl">
-            {profile.name}
-          </h1>
+          <div>
+            <h1 className="max-w-4xl font-serif text-5xl leading-[1.04] text-ink sm:text-6xl lg:text-7xl">
+              {profile.name}
+            </h1>
+            <p
+              className="mt-3 font-cjk text-2xl leading-tight text-oxford/80 sm:text-3xl"
+              lang="zh-Hant"
+            >
+              {profile.chineseName}
+            </p>
+          </div>
           <p className="mt-6 max-w-3xl text-xl leading-8 text-ink/80 sm:text-2xl">
             {profile.title}
           </p>

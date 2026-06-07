@@ -18,7 +18,14 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-        serif: ["Georgia", "Times New Roman", "serif"]
+        serif: ["Georgia", "Times New Roman", "serif"],
+        cjk: [
+          "Songti SC",
+          "Noto Serif CJK TC",
+          "Noto Serif CJK SC",
+          "PMingLiU",
+          "serif"
+        ]
       },
       boxShadow: {
         soft: "0 20px 70px rgba(18, 60, 105, 0.10)"
