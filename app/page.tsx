@@ -61,8 +61,8 @@ function Hero() {
             {profile.tagline}
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
-            <a className="rounded-full bg-oxford px-5 py-3 text-sm font-semibold text-white transition hover:bg-teal" href={profile.links.cv}>
-              CV
+            <a className="rounded-full bg-oxford px-5 py-3 text-sm font-semibold text-white transition hover:bg-teal" href="#about">
+              About
             </a>
             <a className="rounded-full border border-oxford/20 px-5 py-3 text-sm font-semibold text-ink transition hover:border-teal hover:text-teal" href="#research">
               Research

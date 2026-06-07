@@ -5,7 +5,6 @@ export const profile = {
   email: "kaixin.zhang@ndm.ox.ac.uk",
   heroEyebrow: "Molecular Neuroscience & Synaptic Biology",
   links: {
-    cv: "#",
     linkedin: "https://www.linkedin.com/in/kaixin-zhang-ox",
     googleScholar: "#",
     orcid: "#"
