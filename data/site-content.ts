@@ -1,6 +1,6 @@
 export const profile = {
   name: "Kaixin Zhang",
-  chineseName: "張愷心",
+  chineseName: "张恺心",
   title: "DPhil Student in Clinical Medicine, University of Oxford",
   email: "kaixin.zhang@ndm.ox.ac.uk",
   heroEyebrow: "Molecular Neuroscience & Synaptic Biology",

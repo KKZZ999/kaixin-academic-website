@@ -49,7 +49,7 @@ function Hero() {
             </h1>
             <p
               className="mt-3 font-cjk text-2xl leading-tight text-oxford/80 sm:text-3xl"
-              lang="zh-Hant"
+              lang="zh-Hans"
             >
               {profile.chineseName}
             </p>
