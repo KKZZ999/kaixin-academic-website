@@ -11,9 +11,9 @@ const config: Config = {
       colors: {
         ink: "#17201c",
         paper: "#fbfaf6",
-        mist: "#edf5f1",
-        oxford: "#123c69",
-        teal: "#1b7666",
+        mist: "#eef4fb",
+        oxford: "#002147",
+        teal: "#002147",
         moss: "#6d8463"
       },
       fontFamily: {
